@@ -14,7 +14,7 @@
 6. Laser Balloon Interception
 
 # 
-###### Road Mask
+###### Circuit Diagram
 >  ![alt text](/github_images/Schematic.png)
 >
 >
