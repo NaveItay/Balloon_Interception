@@ -8,7 +8,7 @@ Servo vertical_servo;
 #define vertical 2
 #define laser 8
 
-int x = 270 / 2;
+int x = 360 / 2;
 int y = 180 / 2;
 
 int servoVal;
