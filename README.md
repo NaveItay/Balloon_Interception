@@ -4,7 +4,7 @@
 ![title](/github_images/Balloon_Interception.PNG)
 [![title](/github_images/youtube.png "Balloon Interception - Deep Learning, Computer Vision, and Robotics")](https://www.youtube.com/watch?v=UwBT0xUOck4&ab_channel=ItayNave)
 
-## Project steps:
+### Project steps:
 
 1. Circuit Diagram
 2. Data labeling
