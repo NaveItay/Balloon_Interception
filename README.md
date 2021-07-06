@@ -1,6 +1,6 @@
 # Balloon Interception
 
-![title](/Images/introduction.PNG)
+![title](/github_images/Balloon_Interception.PNG)
 
 Balloon Interception System (Deep Learning, Computer Vision, and Robotics)
 
