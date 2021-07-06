@@ -11,8 +11,10 @@ Balloon Interception System (Deep Learning, Computer Vision, and Robotics)
 1. Circuit Diagram
 ![alt text](/github_images/Schematic.png)
 
-3. Data labeling
-4. Training CNN model (Darknet framework)
-5. Balloon Detection                 
-6. Object Tracking Camera
-7. Laser Balloon Interception
+2. Data labeling
+![alt text](/github_images/Label.PNG)
+
+3. Training CNN model (Darknet framework)
+4. Balloon Detection                 
+5. Object Tracking Camera
+6. Laser Balloon Interception
