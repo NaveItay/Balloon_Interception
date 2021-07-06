@@ -7,12 +7,39 @@
 ## Project steps:
 
 1. Circuit Diagram
-![alt text](/github_images/Schematic.png)
-
 2. Data labeling
-![alt text](/github_images/Label.PNG)
-
 3. Training CNN model (Darknet framework)
 4. Balloon Detection                 
 5. Object Tracking Camera
 6. Laser Balloon Interception
+
+# 
+###### Road Mask
+>  ![alt text](/github_images/Schematic.png)
+>
+>
+
+###### Data labeling
+>  ![alt text](/github_images/Label.PNG)
+>
+>
+
+###### YOLOv4-tiny Convolutional Neural Network
+>  
+>
+
+###### Balloon Detection
+>  
+>
+>
+
+###### Object Tracking Camera
+>  
+>
+>
+
+###### Laser Balloon Interception
+>  
+>
+>
+ 
