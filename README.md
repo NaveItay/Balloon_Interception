@@ -6,11 +6,10 @@
 
 ### Project steps:
 
-1. Circuit Diagram
+1. Circuit diagram and hardware
 2. Data labeling
 3. Training CNN model (Darknet framework)
-4. Hardware
-5. Code                
+4. Code                
    - Initialize Model
    - Balloon Detection
    - Draw Detections
@@ -18,10 +17,25 @@
    - Laser Balloon Interception
 
 # 
-###### Circuit Diagram
+###### Circuit Diagram and Hardware
 >  ![alt text](/github_images/Schematic.png)
 >
+>  ### Controllable Electric Tilt Two-Degree-Of-Freedom Manipulator Horizontal And Vertical Rotation
+> ![alt text](/github_images/Controllable_Electric_Tilt_Two_Degree_Of_Freedom_Manipulator_Horizontal_And_Vertical_Rotation.PNG)
+> 
+>  - Digital Coreless Servo, 360 degrees for horizontal axis     
+>  - Digital Coreless Servo, 180 degrees for vertical axis
 >
+>  ### 1668 Focusable 648nm 200mW Red Laser Line Module Locator Cutter LD for wood cutting machine sawmill
+> ![alt text](/github_images/laser.PNG)
+>
+>  - Wavelength 648nm (mitsubishi ML101J23 ld in)
+>  - Output: 200mW
+>  - Divergence : 0.1-2mrad  
+>  - Working voltage:DC 3.6V-5.5v 
+>  - Line diameter: min 0.5mm at 1 meter 
+>  - Duty cycle: 2 hours on, 5 minutes off 
+>  - Size: 16mm×68mm 
 
 ###### Data labeling
 > ![alt text](/github_images/Label.PNG)
@@ -43,25 +57,6 @@
 <br />
 <br />
 </p>
-
-###### Hardware
->
->  ### Controllable Electric Tilt Two-Degree-Of-Freedom Manipulator Horizontal And Vertical Rotation
-> ![alt text](/github_images/Controllable_Electric_Tilt_Two_Degree_Of_Freedom_Manipulator_Horizontal_And_Vertical_Rotation.PNG)
-> 
->  - Digital Coreless Servo, 360 degrees for horizontal axis     
->  - Digital Coreless Servo, 180 degrees for vertical axis
->
->  ### 1668 Focusable 648nm 200mW Red Laser Line Module Locator Cutter LD for wood cutting machine sawmill
-> ![alt text](/github_images/laser.PNG)
->
->  - Wavelength 648nm (mitsubishi ML101J23 ld in)
->  - Output: 200mW
->  - Divergence : 0.1-2mrad  
->  - Working voltage:DC 3.6V-5.5v 
->  - Line diameter: min 0.5mm at 1 meter 
->  - Duty cycle: 2 hours on, 5 minutes off 
->  - Size: 16mm×68mm 
  
 <p>
 <br />
