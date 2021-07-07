@@ -42,18 +42,16 @@
 >
 
 ###### Object Tracking Camera
-> Controllable Electric Tilt Two-Degree-Of-Freedom Manipulator Horizontal And Vertical Rotation
-> 
 > ![alt text](/github_images/Controllable_Electric_Tilt_Two_Degree_Of_Freedom_Manipulator_Horizontal_And_Vertical_Rotation.PNG)
 > 
+> Controllable Electric Tilt Two-Degree-Of-Freedom Manipulator Horizontal And Vertical Rotation
 > - Digital Coreless Servo, 360 degrees for horizontal axis
 > - Digital Coreless Servo, 180 degrees for vertical axis
 
 ###### Laser Balloon Interception
-> 1668 Focusable 648nm 200mW Red Laser Line Module Locator Cutter LD for wood cutting machine sawmill
-> 
 > ![alt text](/github_images/laser.PNG)
->
+> 
+> 1668 Focusable 648nm 200mW Red Laser Line Module Locator Cutter LD for wood cutting machine sawmill
 > wavelength 648nm (mitsubishi ML101J23 ld in)
 > output: 200mW
 > divergence : 0.1-2mrad
