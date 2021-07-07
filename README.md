@@ -48,7 +48,7 @@
 > - Digital Coreless Servo, 360 degrees for horizontal axis
 > - Digital Coreless Servo, 180 degrees for vertical axis
 
-###### Laser Balloon Interception
+###### Laser module
 > ![alt text](/github_images/laser.PNG)
 > 
 > 1668 Focusable 648nm 200mW Red Laser Line Module Locator Cutter LD for wood cutting machine sawmill
