@@ -38,10 +38,20 @@
 >  - Duty cycle: 2 hours on, 5 minutes off 
 >  - Size: 16mm×68mm 
 
+<p>
+<br />
+<br />
+</p>
+
 ###### Data labeling
 > ![alt text](/github_images/Label.PNG)
 > The dataset contains about 1000 labeled images, a free dataset downloaded from [googleapis.com](https://storage.googleapis.com/openimages/web/index.html).
 >
+
+<p>
+<br />
+<br />
+</p>
 
 ###### YOLOv4-tiny Convolutional Neural Network
 > ![alt text](/github_images/yolov4_architecture.PNG)
@@ -54,11 +64,6 @@
 > YOLO divides the input image into an S × S grid and each grid cell is responsible for predicting the object centered
 > in that grid cell.
 
-<p>
-<br />
-<br />
-</p>
- 
 <p>
 <br />
 <br />
@@ -168,7 +173,4 @@
 >        else:
 >            ard.write('O'.encode())
 > ```
-
-
-
-
+> 
