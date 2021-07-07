@@ -9,9 +9,10 @@
 1. Circuit Diagram
 2. Data labeling
 3. Training CNN model (Darknet framework)
-4. Balloon Detection                 
-5. Object Tracking Camera
-6. Laser Balloon Interception
+4. Code                
+   - Initialize Model
+   - Balloon Detection
+   - Laser Balloon Interception
 
 # 
 ###### Circuit Diagram
