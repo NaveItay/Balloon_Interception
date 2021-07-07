@@ -12,6 +12,7 @@
 4. Code                
    - Initialize Model
    - Balloon Detection
+   - Object Tracking Camera
    - Laser Balloon Interception
 
 # 
