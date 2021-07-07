@@ -37,11 +37,41 @@
 > YOLO divides the input image into an S × S grid and each grid cell is responsible for predicting the object centered
 > in that grid cell.
 
+<p>
+<br />
+<br />
+</p>
 
-###### Balloon Detection
+
+###### Code
 > 
+> - Initialize Model
+>  ```
+>      def initialize_model(self):
+>
+>        with open('./model/Balloon_interception.names', 'r') as f:
+>            self.class_names = [cname.strip() for cname in f.readlines()]
+>
+>        net = cv2.dnn.readNet('./model/Balloon_interception.weights', './model/Balloon_interception.cfg')
+>        net.setPreferableBackend(cv2.dnn.DNN_BACKEND_CUDA)
+>        net.setPreferableTarget(cv2.dnn.DNN_TARGET_CUDA)
+>        self.model = cv2.dnn_DetectionModel(net)
+>        self.model.setInputParams(1 / 255, (416, 416), (0, 0, 0), swapRB=True, crop=False)
+>  ```
+>  
 >
 >
+>
+>
+>
+>
+>
+>
+
+
+
+
+
 
 ###### Object Tracking Camera
 > ![alt text](/github_images/Controllable_Electric_Tilt_Two_Degree_Of_Freedom_Manipulator_Horizontal_And_Vertical_Rotation.PNG)
