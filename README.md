@@ -18,7 +18,7 @@
 
 # 
 ###### Circuit Diagram and Hardware
->  ##### Schema
+>
 >  ![alt text](/github_images/Schematic.png)
 >
 >  ##### Controllable Electric Tilt Two-Degree-Of-Freedom Manipulator Horizontal And Vertical Rotation
