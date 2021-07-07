@@ -78,7 +78,7 @@
 
 ###### Code
 > 
-> - Initialize Model
+> ##### Initialize Model
 >  ```
 >      def initialize_model(self):
 >
@@ -92,12 +92,12 @@
 >        self.model.setInputParams(1 / 255, (416, 416), (0, 0, 0), swapRB=True, crop=False)
 >  ```
 >  
-> - Balloon Detection
+> ##### Balloon Detection
 >  ```
 >          self.classes, scores, boxes = self.model.detect(frame, CONFIDENCE_THRESHOLD, NMS_THRESHOLD)
 >  ```
 >
->  - Draw Detections
+>  ##### Draw Detections
 >  ```
 >      def draw_objects(self, frame, classes, scores, boxes):
 >
@@ -125,7 +125,7 @@
 >        return cx, cy
 >  ```
 >  
->  - Object Tracking Camera
+>  ##### Object Tracking Camera
 >  ```
 >     def move_motors(self, detection_boxes):
 >
@@ -151,7 +151,7 @@
 >                ard.write('U'.encode())
 >  ```
 >
->  - Laser Balloon Interception
+>  ##### Laser Balloon Interception
 >  ```
 >      def laser(self, current_frame, detection_boxes):
 >
