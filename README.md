@@ -30,22 +30,34 @@
 > YOLO uses a totally different approach than other previous detection systems. It applies a single neural network to the full image.
 > This network divides the image into regions and predicts bounding boxes and probabilities for each region.
 > These bounding boxes are weighted by the predicted probabilities.
-> The basic idea of YOLO is exhibited in the figure below. YOLO divides the input image into an S × S grid and each grid cell is responsible for predicting the object centered
+> The basic idea of YOLO is exhibited in the figure below.
+> YOLO divides the input image into an S × S grid and each grid cell is responsible for predicting the object centered
 > in that grid cell.
 
 
 ###### Balloon Detection
->
+> 
 >
 >
 
 ###### Object Tracking Camera
->  
->
->
+> Controllable Electric Tilt Two-Degree-Of-Freedom Manipulator Horizontal And Vertical Rotation
+> 
+> ![alt text](/github_images/Controllable_Electric_Tilt_Two_Degree_Of_Freedom_Manipulator_Horizontal_And_Vertical_Rotation.PNG)
+> 
+> - Digital Coreless Servo, 360 degrees for horizontal axis
+> - Digital Coreless Servo, 180 degrees for vertical axis
 
 ###### Laser Balloon Interception
->  
+> 1668 Focusable 648nm 200mW Red Laser Line Module Locator Cutter LD for wood cutting machine sawmill
+> 
+> ![alt text](/github_images/laser.PNG)
 >
->
+> wavelength 648nm (mitsubishi ML101J23 ld in)
+> output: 200mW
+> divergence : 0.1-2mrad
+> working voltage:DC 3.6V-5.5v
+> line diameter: min 0.5mm at 1 meter
+> Duty cycle: 2 hours on, 5 minutes off
+> size: 16mm×68mm
  
