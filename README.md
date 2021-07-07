@@ -25,11 +25,16 @@
 >
 
 ###### YOLOv4-tiny Convolutional Neural Network
->  
->
+> ![alt text](/github_images/yolov4_architecture.PNG)
+> YOLO uses a totally different approach than other previous detection systems. It applies a single neural network to the full image.
+> This network divides the image into regions and predicts bounding boxes and probabilities for each region.
+> These bounding boxes are weighted by the predicted probabilities.
+> The basic idea of YOLO is exhibited in the figure below. YOLO divides the input image into an S × S grid and each grid cell is responsible for predicting the object centered
+> in that grid cell.
+
 
 ###### Balloon Detection
->  
+>
 >
 >
 
