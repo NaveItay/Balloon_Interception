@@ -52,11 +52,13 @@
 > ![alt text](/github_images/laser.PNG)
 > 
 > 1668 Focusable 648nm 200mW Red Laser Line Module Locator Cutter LD for wood cutting machine sawmill
+> 
 > wavelength 648nm (mitsubishi ML101J23 ld in)
 > output: 200mW
-> divergence : 0.1-2mrad
-> working voltage:DC 3.6V-5.5v
-> line diameter: min 0.5mm at 1 meter
-> Duty cycle: 2 hours on, 5 minutes off
+>
+> divergence : 0.1-2mrad  
+> working voltage:DC 3.6V-5.5v 
+> line diameter: min 0.5mm at 1 meter 
+> Duty cycle: 2 hours on, 5 minutes off 
 > size: 16mm×68mm
  
