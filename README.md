@@ -37,6 +37,10 @@
 >  - Line diameter: min 0.5mm at 1 meter 
 >  - Duty cycle: 2 hours on, 5 minutes off 
 >  - Size: 16mm×68mm 
+>  
+>  ##### PC (Ubuntu linux)
+>  CUDA technology support with NVIDIA® GeForce® RTX 2080 Ti graphics card.
+>
 
 <p>
 <br />
