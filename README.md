@@ -21,7 +21,7 @@
 
 ###### Data labeling
 > ![alt text](/github_images/Label.PNG)
-> The dataset contains about 1000 labeled images, a free dataset downloaded from [googleapis.com](https://storage.googleapis.com/openimages/web/index.html),
+> The dataset contains about 1000 labeled images, a free dataset downloaded from [googleapis.com](https://storage.googleapis.com/openimages/web/index.html).
 >
 
 ###### YOLOv4-tiny Convolutional Neural Network
