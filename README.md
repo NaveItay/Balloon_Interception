@@ -155,12 +155,12 @@
 ###### Hardware
 >
 >  ### Controllable Electric Tilt Two-Degree-Of-Freedom Manipulator Horizontal And Vertical Rotation
->      ![alt text](/github_images/Controllable_Electric_Tilt_Two_Degree_Of_Freedom_Manipulator_Horizontal_And_Vertical_Rotation.PNG)
+> ![alt text](/github_images/Controllable_Electric_Tilt_Two_Degree_Of_Freedom_Manipulator_Horizontal_And_Vertical_Rotation.PNG)
 >      - Digital Coreless Servo, 360 degrees for horizontal axis
 >      - Digital Coreless Servo, 180 degrees for vertical axis
 >
 >  ### 1668 Focusable 648nm 200mW Red Laser Line Module Locator Cutter LD for wood cutting machine sawmill
->      ![alt text](/github_images/laser.PNG)
+> ![alt text](/github_images/laser.PNG)
 >
 >      - Wavelength 648nm (mitsubishi ML101J23 ld in)
 >      - Output: 200mW
