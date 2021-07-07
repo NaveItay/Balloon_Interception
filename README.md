@@ -12,6 +12,7 @@
 4. Code                
    - Initialize Model
    - Balloon Detection
+   - Draw Detections
    - Object Tracking Camera
    - Laser Balloon Interception
 
@@ -59,37 +60,113 @@
 >        self.model.setInputParams(1 / 255, (416, 416), (0, 0, 0), swapRB=True, crop=False)
 >  ```
 >  
+> - Balloon Detection
+>  ```
+>          self.classes, scores, boxes = self.model.detect(frame, CONFIDENCE_THRESHOLD, NMS_THRESHOLD)
+>  ```
 >
+>  - Draw Detections
+>  ```
+>      def draw_objects(self, frame, classes, scores, boxes):
 >
+>        for (class_id, score, box) in zip(classes, scores, boxes):
 >
+>            # Box center
+>            x, y = self.get_box_center(box)
 >
+>            label = "(%d, %d)" % (x, y)
+>            overlay = frame.copy()
 >
+>            # Draw Balloon
+>            if class_id[0] == 0:
+>                cv2.circle(overlay, (x, y), int(box[3] / 2), COLORS[1], 2)
+>                cv2.addWeighted(overlay, 0.5, frame, 0.5, 0, frame)
+>                cv2.putText(frame, label + " " + str(score), (box[0], box[1] - 10),
+>                            cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
 >
+>        return frame
 >
+>    def get_box_center(self, box):
+>        x, y, w, h = box
+>        cx = x + x + w // 2
+>        cy = y + y + h // 2
+>        return cx, cy
+>  ```
+>  
+>  - Object Tracking Camera
+>  ```
+>     def move_motors(self, detection_boxes):
 >
+>        for box in detection_boxes:
+>
+>            # Box center
+>            x, y = self.get_box_center(box)
+>
+>            # horizontal
+>            if x >= 740:
+>                print('R')
+>                ard.write('R'.encode())
+>            elif x <= 540:
+>                print('L')
+>                ard.write('L'.encode())
+>
+>            # vertical
+>            if y >= 460:
+>                print('D')
+>                ard.write('D'.encode())
+>            elif y <= 260:
+>                print('U')
+>                ard.write('U'.encode())
+>  ```
+>
+>  - Laser Balloon Interception
+>  ```
+>      def laser(self, current_frame, detection_boxes):
+>
+>        for box in detection_boxes:
+>
+>            # Box center
+>            x, y = self.get_box_center(box)
+>
+>            # Laser ON
+>            if (540 < x < 740) and (260 < y < 460):
+>                self.laser_flag = True
+>
+>                cv2.addWeighted(current_frame, 0.7, self.blank_image, 0.3, 0, current_frame)
+>                cv2.putText(current_frame, "Laser ON", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1.5, (0, 0, 255), 2)
+>                self.serial(self.laser_flag)
+>            else:
+>                self.laser_flag = False
+>
+>                cv2.putText(current_frame, "Laser OFF", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1.5, (0, 0, 255), 2)
+>                self.serial(self.laser_flag)
+>
+>    def serial(self, laser_flag):
+>
+>        if laser_flag:
+>            ard.write('S'.encode())
+>        else:
+>            ard.write('O'.encode())
+> ```
 
 
 
 
-
-
-###### Object Tracking Camera
-> ![alt text](/github_images/Controllable_Electric_Tilt_Two_Degree_Of_Freedom_Manipulator_Horizontal_And_Vertical_Rotation.PNG)
-> 
-> Controllable Electric Tilt Two-Degree-Of-Freedom Manipulator Horizontal And Vertical Rotation
-> - Digital Coreless Servo, 360 degrees for horizontal axis
-> - Digital Coreless Servo, 180 degrees for vertical axis
-
-###### Laser module
-> ![alt text](/github_images/laser.PNG)
-> 
-> 1668 Focusable 648nm 200mW Red Laser Line Module Locator Cutter LD for wood cutting machine sawmill
-> 
-> - Wavelength 648nm (mitsubishi ML101J23 ld in)
-> - Output: 200mW
-> - Divergence : 0.1-2mrad  
-> - Working voltage:DC 3.6V-5.5v 
-> - Line diameter: min 0.5mm at 1 meter 
-> - Duty cycle: 2 hours on, 5 minutes off 
-> - Size: 16mm×68mm 
+###### Hardware
+>
+>  - Controllable Electric Tilt Two-Degree-Of-Freedom Manipulator Horizontal And Vertical Rotation
+>  ![alt text](/github_images/Controllable_Electric_Tilt_Two_Degree_Of_Freedom_Manipulator_Horizontal_And_Vertical_Rotation.PNG)
+>     - Digital Coreless Servo, 360 degrees for horizontal axis
+>     - Digital Coreless Servo, 180 degrees for vertical axis
+>
+>  - 1668 Focusable 648nm 200mW Red Laser Line Module Locator Cutter LD for wood cutting machine sawmill
+>    ![alt text](/github_images/laser.PNG)
+>
+>     - Wavelength 648nm (mitsubishi ML101J23 ld in)
+>     - Output: 200mW
+>     - Divergence : 0.1-2mrad  
+>     - Working voltage:DC 3.6V-5.5v 
+>     - Line diameter: min 0.5mm at 1 meter 
+>     - Duty cycle: 2 hours on, 5 minutes off 
+>     - Size: 16mm×68mm 
  
