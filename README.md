@@ -33,11 +33,11 @@
 > ![alt text](/github_images/laser.PNG)
 >
 >  - Wavelength 445nm
->  - Safety level:Class IV
+>  - Safety level: Class IV
 >  - Max brightness: > 350lm/500lm/1000lm
->  - Circuit control:APC
->  - Dimension:φ40*190mm 
->  - Beam style:continuous line
+>  - Circuit control: APC
+>  - Dimension: φ40*190mm 
+>  - Beam style: continuous line
 >
 
 >  ##### PC (Ubuntu linux)
