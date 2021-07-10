@@ -32,7 +32,7 @@
 >  #####  Blue Laser Pointer 445nm 5000m 2W Laser Light
 > ![alt text](/github_images/laser.PNG)
 >
->  - Wavelength 450nm
+>  - Wavelength 445nm
 >  - Safety level:Class IV
 >  - Max brightness: > 350lm/500lm/1000lm
 >  - Circuit control:APC
