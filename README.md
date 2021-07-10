@@ -29,16 +29,15 @@
 >  - Digital Coreless Servo, 180 degrees for vertical axis
 >
 
->  ##### 1668 Focusable 648nm 200mW Red Laser Line Module Locator Cutter LD for wood cutting machine sawmill
+>  #####  Blue Laser Pointer 445nm 5000m 2W Laser Light
 > ![alt text](/github_images/laser.PNG)
 >
->  - Wavelength 648nm (mitsubishi ML101J23 ld in)
->  - Output: 200mW
->  - Divergence : 0.1-2mrad  
->  - Working voltage:DC 3.6V-5.5v 
->  - Line diameter: min 0.5mm at 1 meter 
->  - Duty cycle: 2 hours on, 5 minutes off 
->  - Size: 16mm×68mm 
+>  - Wavelength 450nm
+>  - Safety level:Class IV
+>  - Max brightness: > 350lm/500lm/1000lm
+>  - Circuit control:APC
+>  - Dimension:φ40*190mm 
+>  - Beam style:continuous line
 >
 
 >  ##### PC (Ubuntu linux)
