@@ -126,7 +126,7 @@
 >  
 >  ##### Object Tracking Camera
 >  ```
-> ![alt text](/github_images/logic_explain.PNG)
+>     ![alt text](/github_images/logic_explain.PNG)
 > 
 >     def move_motors(self, detection_boxes):
 >
